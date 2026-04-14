@@ -17,8 +17,6 @@
   --color-on-surface-variant: #424654;
 }
 
-@plugin "@tailwindcss/line-clamp";
-
 @layer base {
   body {
     @apply font-sans text-on-surface bg-surface;
