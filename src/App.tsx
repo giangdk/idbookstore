@@ -193,12 +193,12 @@ const Navbar = () => {
 
 const Hero = () => {
   const heroBooks = [
-    "/public/60 Đề minh hoạ tốt nghiệp THPT môn Toán 2026.JPG",
-    "/public/60 Đề minh hoạ tốt nghiệp THPT môn Tiếng Anh 2026.JPG",
-    "/public/60 Đề minh hoạ tốt nghiệp THPT môn Vật Lí 2026.JPG",
-    "/public/60 Đề minh hoạ tốt nghiệp THPT môn Hoá Học 2026.JPG",
-    "/public/Tổng ôn Toán 9 tập 1&2.JPG",
-    "/public/Tổng ôn Tiếng Anh 9 tập 1&2.JPG",
+    "/60 Đề minh hoạ tốt nghiệp THPT môn Toán 2026.JPG",
+    "/60 Đề minh hoạ tốt nghiệp THPT môn Tiếng Anh 2026.JPG",
+    "/60 Đề minh hoạ tốt nghiệp THPT môn Vật Lí 2026.JPG",
+    "/60 Đề minh hoạ tốt nghiệp THPT môn Hoá Học 2026.JPG",
+    "/Tổng ôn Toán 9 tập 1&2.JPG",
+    "/Tổng ôn Tiếng Anh 9 tập 1&2.JPG",
   ];
 
   return (
@@ -317,7 +317,7 @@ const About = () => (
             className="rounded-2xl shadow-lg mt-8 overflow-hidden"
           >
             <img
-              src="/public/60 Đề minh hoạ tốt nghiệp THPT môn Sinh học 2026.JPG"
+              src="/60 Đề minh hoạ tốt nghiệp THPT môn Sinh học 2026.JPG"
               alt="Bộ sách 60 đề Sinh học"
               className="w-full h-72 object-cover"
             />
@@ -329,7 +329,7 @@ const About = () => (
             className="rounded-2xl shadow-lg overflow-hidden"
           >
             <img
-              src="/public/60 Đề minh hoạ tốt nghiệp THPT môn Hoá Học 2026.JPG"
+              src="/60 Đề minh hoạ tốt nghiệp THPT môn Hoá Học 2026.JPG"
               alt="Bộ sách 60 đề Hoá học"
               className="w-full h-72 object-cover"
             />
@@ -435,7 +435,7 @@ const Products2026 = () => (
             {/* Full-width image header - no gradient, full bleed */}
             <div className="relative overflow-hidden bg-surface-container-low">
               <img
-                src={`/public/${book.img}`}
+                src={`/${book.img}`}
                 alt={book.title}
                 className="w-full aspect-square object-cover block group-hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
@@ -481,7 +481,7 @@ const KhoiDeSection = () => (
             {/* Full-width image header - no gradient overlay */}
             <div className="relative overflow-hidden bg-surface-container-low">
               <img
-                src={`/public/${book.img}`}
+                src={`/${book.img}`}
                 alt={book.title}
                 className="w-full aspect-square object-cover block group-hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
@@ -526,7 +526,7 @@ const Grade9Section = () => (
             {/* Full-width image - no gradient */}
             <div className="relative overflow-hidden bg-surface-container-low">
               <img
-                src={`/public/${book.img}`}
+                src={`/${book.img}`}
                 alt={book.title}
                 className="w-full aspect-square object-cover block group-hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
